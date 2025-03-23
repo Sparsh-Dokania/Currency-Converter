@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-    <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-[#163300]">
+    <div className="w-full h-screen flex flex-col justify-center items-center bg-cover gap-20 bg-no-repeat bg-[#163300]">
       <h1 className="text-5xl text-[#9fe870]  font-extrabold w-full  text-center">Currency Converter</h1>
       <div className="w-full max-w-md mx-auto rounded-lg p-5 backdrop-blur-sm bg-white">
         
