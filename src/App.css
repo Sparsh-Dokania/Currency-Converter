@@ -1,1 +1,82 @@
 @import "tailwindcss";
+body{
+    background-color: black;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .main {
+    padding: 20px 0 10px 0;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .swap-button {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #2d65ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #0f4fff;
+  }
+  
+  .swap-btn {
+    background-color: #2d65ff;
+  }
+  
+  .swap-btn:hover {
+    background-color: #0f4fff;
+  }
+  
+  .convert-btn {
+    background-color: #2d65ff;
+  }
+  
+  .convert-btn:hover {
+    background-color: #0f4fff;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
